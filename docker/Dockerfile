@@ -19,13 +19,18 @@ RUN apt-get update \
     python3=3.5.1-3 \
     python3-pip=8.1.1-2ubuntu0.4 \
     python3-setuptools=20.7.0-1 \
-    python=2.7.11-1 \
+    python=2.7.12-1~16.04 \
     python-pip=8.1.1-2ubuntu0.4 \
     python-setuptools=20.7.0-1 \
     unzip=6.0-20ubuntu1 \
-    wget=1.17.1-1ubuntu1.3 \
-    subversion=1.9.3-2ubuntu1.1 \
-    locales=2.23-0ubuntu9 \
+    wget \
+    subversion \
+    locales \
+    mercurial-common=3.7.3-1ubuntu1 \
+    python-minimal=2.7.12-1~16.04 \
+    python-dev \
+    libboost-python1.58-dev \
+    libpython-stdlib=2.7.12-1~16.04 \
     libopenblas-dev=0.2.18-1ubuntu1 \
     libboost-program-options-dev=1.58.0.1ubuntu1 \
     zlib1g-dev=1:1.2.8.dfsg-2ubuntu4.1
